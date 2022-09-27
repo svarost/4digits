@@ -27,7 +27,7 @@ int[] Promt(int count)
             if (LengthNumber(value) == count && IsDifferentDigits(ToArray(value)))
                 return ToArray(value);
         }
-        Console.WriteLine("Введено некорректное значение, посторите ввод...");
+        Console.WriteLine("Введено некорректное значение, повторите ввод...");
         Console.Write("\t");
     }
 }
